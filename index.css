@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B244A;
+    box-sizing: border-box;
+}
+
+.score-content h3 {
+    color: white;
+    font-family: Verdana,Geneva,sans-serif; 
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.scoreboard {
+    background-color: #080001;
+    height: 110px;
+    width: 165px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    margin-bottom: 20px;
+
+}
+
+.counter-row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.score-counter {
+    background-color: transparent;
+    border: solid #9AABD8 2px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.score-counter:hover {
+    color: #b1c6fc;
+
+}
+
+.game-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+    
+    
+}
+
+.game-buttons button {
+    background-color: white;
+    border: solid black 2px;
+    color: black;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.game-buttons button:hover {
+    background-color: lightgray;
+}
+
+.announcement {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+.winning-score {
+    outline: 5px dashed yellow;
+
+}
